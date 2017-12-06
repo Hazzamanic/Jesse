@@ -1,0 +1,21 @@
+<Placement>
+  <Match DisplayType="Summary">
+    <Place Parts_Title_Summary="Title:1"
+           Parts_Common_Body_Summary="Summary:3"
+           Parts_Common_Metadata_Summary="-"
+           Parts_Comments_Count="-" />
+
+  </Match>
+  <Match DisplayType="Detail">
+    <Place Parts_Title="Title:1"
+           Parts_Common_Body="Content:3" />
+  </Match>
+  <Match ContentType="Blog">
+    <Place Parts_Common_Metadata="-"
+           Parts_Blogs_Blog_Description="-"
+           Parts_Title="-" />
+  </Match>
+  <Place Parts_ListOfComments="-"
+         Parts_Common_Metadata="Meta:2"
+         Parts_CommentForm="-" />
+</Placement>

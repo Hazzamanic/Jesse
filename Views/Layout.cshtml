@@ -1,0 +1,19 @@
+﻿@using Orchard.ContentManagement
+@{
+    Func<dynamic, dynamic> Zone = x => Display(x);
+
+}
+
+<header role="banner" class="header">
+    <a href="@WorkContext.CurrentSite.BaseUrl">
+        <strong>@WorkContext.CurrentSite.SiteName</strong>
+    </a>
+    @Zone(Model.Nav)
+    <nav class="nav" role="navigation">
+        <ul class="nav-list"></ul>
+    </nav>
+</header>
+
+<div role="main" id="content">
+    @Zone(Model.Content)
+</div>

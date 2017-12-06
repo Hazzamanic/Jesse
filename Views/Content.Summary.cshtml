@@ -1,0 +1,18 @@
+﻿@using Orchard.ContentManagement
+
+@{
+    ContentItem content = Model.ContentItem;
+}
+
+<article>
+    <div class="home">
+        @Display(Model.Title)
+        <div class="summary">
+            @Display(Model.Summary)
+            <div class="cta">
+                <a href="@Url.ItemDisplayUrl(content)"><strong>Read article</strong></a>
+                @Display(Model.Meta)
+            </div>
+        </div>
+    </div>
+</article>

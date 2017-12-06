@@ -1,0 +1,21 @@
+﻿@using Orchard.ContentManagement
+@using AmpBase.Models
+@{
+    var settings = WorkContext.CurrentSite.As<AmpBaseThemeSettingsPart>();
+
+    var icon = settings.SiteIcon;
+    var iconPosition = settings.SiteIconPosition;
+    var siteTitleFloat = "";
+
+    var displaySiteName = settings.DisplaySiteName;
+}
+
+@if(!String.IsNullOrWhiteSpace(icon)) {
+    if(iconPosition == "left") {
+    }
+    <amp-img src="@icon" width="32" height="32" class="site-icon"></amp-img>
+}
+
+@if(displaySiteName) {
+    @WorkContext.CurrentSite.SiteName
+}

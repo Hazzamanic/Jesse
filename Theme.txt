@@ -1,0 +1,6 @@
+Name: Jesse
+Author: Hazzamanic
+Website: http://arkleseizure.net
+Description: A basic AMP blog theme. Based on WordPress Amp Theme by Jesse Hanley
+Version: 1.0
+Tags: AMP

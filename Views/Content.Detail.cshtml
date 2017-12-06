@@ -1,0 +1,14 @@
+﻿@{
+    var content = Model.ContentItem;
+}
+
+<article id="post-@content.Id">
+    <div class="home detail">
+        @Display(Model.Title)
+
+        @Display(Model.Meta)
+
+        @Display(Model.Content)
+        @Display(Model.Footer)
+    </div>
+</article>
