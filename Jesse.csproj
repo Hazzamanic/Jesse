@@ -125,12 +125,7 @@
     <Content Include="Views\Parts.Title.Summary.cshtml" />
     <Content Include="Views\Parts.Common.Body.Summary.cshtml" />
     <Content Include="Views\Content-Blog.Detail.cshtml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
+    <Content Include="README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
